@@ -109,6 +109,7 @@ p {
 
 .intro__title {
     margin: 0 0 30px;
+
     font-family: 'Open Sans', sans-serif;
     font-size: 65px;
     line-height: 1.1;
@@ -157,7 +158,34 @@ p {
 }
 
 
+/* Features
+===================*/
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 95px 0;
+}
 
+.features__item {
+    width: 33.33333%;
+    padding: 0 40px;
+    margin: 25px 0;
+
+    text-align: center;
+}
+
+.features__icon {
+    margin-bottom: 25px;
+}
+
+.features__title {
+    margin-bottom: 20px;
+
+    font-size: 14px;
+    color: #2d3033;
+    font-weight: 700;
+    text-transform: uppercase;
+}
 
 
 
